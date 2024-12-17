@@ -9,9 +9,5 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Index() {
-  return (
-    <Link to="/about" prefetch="render">
-      to About
-    </Link>
-  );
+  return <Link to="/">to Home</Link>;
 }
